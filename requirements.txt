@@ -1,0 +1,6 @@
+faster-whisper>=1.1.0
+PyAudioWPatch>=0.2.12.7
+numpy
+# NVIDIA runtime libs so faster-whisper can use the GPU without a full CUDA install
+nvidia-cublas-cu12
+nvidia-cudnn-cu12

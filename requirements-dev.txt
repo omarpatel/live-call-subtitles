@@ -1,0 +1,6 @@
+# Lint and unit-test dependencies. The tests need no GPU, audio device or Whisper
+# model, so faster-whisper and the NVIDIA wheels are intentionally not listed here.
+numpy
+PyAudioWPatch>=0.2.12.7
+pytest>=8
+ruff>=0.6

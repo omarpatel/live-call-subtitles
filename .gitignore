@@ -1,0 +1,42 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.claude/
+
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+id_rsa*
+.secrets/
+.keys/
+secrets/
+*keypair*.json
+wallet*.json
+!wallets.example.json
+id.json
+
+# Logs / scratch / build
+*.log
+logs/
+.tmp/
+tmp/
+dist/
+out/
+build/
+*.tsbuildinfo
+*.db
+*.sqlite
+
+__pycache__/
+*.pyc
+.venv/
+venv/
+models/
+*.onnx
+*.safetensors
+.pytest_cache/
+.ruff_cache/
